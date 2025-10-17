@@ -1,0 +1,18 @@
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #62c4e9;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.subscribe label {
+  display: inline-block;
+  width: 100px;
+}
+
+.subscribe div {
+  margin-bottom: 12px;
+}

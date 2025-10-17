@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  color: #1e2128;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #cbe8f3;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+button {
+  padding: 4px 12px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.admin {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-input {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.admin-input label {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.admin-input textarea, .admin-input input {
+  width: 100%;
+}
+
+.saved::after {
+  content: '✔️';
+  position: absolute;
+  margin-top: -5px;
+  animation: saved-sign 1s;
+}
+
+@keyframes saved-sign {
+  from {
+    margin-left: 100px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
